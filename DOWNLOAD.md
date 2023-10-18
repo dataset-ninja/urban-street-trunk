@@ -1,6 +1,6 @@
 Dataset **Urban Street: Trunk** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/R/J/mT/ImbmPoWFwZblBD7DeCh1oh26JX3FTM1zSduw5ZRuyyDj41jtBTwF2pbALXXY3BYlaCaqdg0LNGSMH6ZnaFnKrWLNZ4HrV1aoBFWclyX7wDkUaWWdG1lHAs8aCv4x.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
