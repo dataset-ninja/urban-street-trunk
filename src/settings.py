@@ -24,7 +24,7 @@ LICENSE: License = License.GNU_LGPL_v3()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Environmental()]
 CATEGORY: Category = Category.Environmental(extra=Category.Biology())
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(),CVTask.SemanticSegmentation(),CVTask.ObjectDetection(),CVTask.Classification()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection(), CVTask.Classification()]
 ANNOTATION_TYPES: List[AnnotationType] = [CVTask.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = "2022-09-24"  # e.g. "YYYY-MM-DD"
@@ -43,7 +43,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/urban-street-trunk"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://www.kaggle.com/datasets/erickendric/tree-dataset-of-urban-street-segmentation-trunk"]
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.kaggle.com/datasets/erickendric/tree-dataset-of-urban-street-segmentation-trunk"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -57,6 +57,8 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https:/
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = ["Tingting Yang", "Suyin Zhou", "Zhijie Huang", "Aijun Xu", "Junhua Ye", "Jianxin Yin"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["xuaj1976@163.com"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Zhejiang Agriculture and Forestry University"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.zafu.edu.cn/"]
@@ -110,6 +112,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
