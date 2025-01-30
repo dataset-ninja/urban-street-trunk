@@ -1,6 +1,6 @@
 Dataset **Urban Street: Trunk** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/5xhba2ham6kkyleehv1sv/urban-street-trunk-DatasetNinja.tar?rlkey=e8od2oqobz7irno2om9metzvr&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI1OTJfVXJiYW4gU3RyZWV0OiBUcnVuay91cmJhbi1zdHJlZXQ6LXRydW5rLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIlFKYm9pdW5pM0M5VjhkdFFzVGFXWHNpTmlVeHQ1MFdlYzlQU2dJaUVhK009In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
